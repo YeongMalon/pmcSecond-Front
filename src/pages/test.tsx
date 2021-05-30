@@ -5,6 +5,7 @@ import Logo from 'src/components/common/logo/Logo';
 import Tab from 'src/components/common/tab/Tab';
 
 const Test = () => {
+  // git-flow를 테스트를 위한 커밋입니다
   const [showSideBar, setShowSideBar] = useState(false);
   const toggleShowSideBar = () => {
     setShowSideBar(!showSideBar);
